@@ -77,8 +77,10 @@ http://localhost:5173
 ---
 
 <p align="center">
-  Dibuat dengan ❤️ oleh <a href="https://github.com/mifthrizky">mifthrizky</a>
+  <strong>Dibuat dengan ❤️ oleh <a href="https://github.com/mifthrizky">mifthrizky</a></strong>
 </p>
+
+---
 
 
 
