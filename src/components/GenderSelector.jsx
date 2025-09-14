@@ -3,7 +3,7 @@ import React from "react";
 const GenderSelector = ({ selectedGender, onGenderChange }) => {
   return (
     <div>
-      <h3 className="font-semibold text-gray-800 mb-3 text-center text-2xl">Jenis Kelamin</h3>
+      <h3 className="font-semibold text-gray-800 mb-3 text-center text-2xl">Gender</h3>
       <div className="flex justify-center items-center gap-8">
         {/* Man */}
         <div
