@@ -1,76 +1,56 @@
-Kalkulator BMI (Indeks Massa Tubuh) 🩺
-<div align="center">
+# BMI Calculator
+<img width="1547" height="950" alt="image" src="https://github.com/user-attachments/assets/38808a9e-276a-4fed-b7cb-3ec71c63bbf9" />
 
-Selamat datang di Kalkulator BMI, sebuah aplikasi web interaktif yang membantu Anda memantau Indeks Massa Tubuh dengan mudah dan cepat. Dibangun menggunakan React dan Tailwind CSS untuk antarmuka yang modern dan responsif.
 
-🚀 Kunjungi Aplikasi Live 🚀
-</div>
+![React](https://img.shields.io/badge/React-17.0.2-blue?logo=react&logoColor=white)
+![Vite](https://img.shields.io/badge/Vite-4.0.0-purple?logo=vite&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green)
 
-Tampilan Aplikasi
-<div align="center">
+🌐 **Live Demo:** [https://bmi-calculator-mip-one.vercel.app/](https://bmi-calculator-mip-one.vercel.app/)
 
-Ganti URL di atas dengan link screenshot aplikasi Anda.
+---
 
-</div>
+## 📌 Overview
 
-📌 Tentang Proyek
-Kalkulator BMI adalah aplikasi web modern yang dirancang untuk memberikan pengguna cara yang intuitif untuk menghitung Indeks Massa Tubuh (BMI) mereka. Pengguna dapat memasukkan data seperti nama, jenis kelamin, tinggi, berat, dan usia untuk mendapatkan hasil BMI yang akurat beserta kategori kesehatannya. Aplikasi ini juga menyimpan riwayat perhitungan di localStorage browser.
+**BMI Calculator** adalah aplikasi web interaktif yang memungkinkan pengguna menghitung **Indeks Massa Tubuh (BMI)** dengan cepat.  
+Aplikasi ini dibuat menggunakan **React** dan **Vite**, memberikan performa tinggi dan pengalaman pengguna yang lancar.
 
-✨ Fitur Utama
-✅ Perhitungan BMI Akurat: Menghitung BMI berdasarkan formula standar.
+💡 **Fitur unik:**  
+- Slider interaktif untuk memilih tinggi badan yang **sinkron dengan input manual**  
+- Validasi input untuk memastikan nilai tetap masuk akal (misal tinggi: 100–200 cm, berat: 0–300 kg)  
+- Kategori BMI otomatis: **Underweight, Normal, Overweight, Obese**  
 
-📊 Visualisasi Hasil: Menampilkan hasil dengan bar indikator yang dinamis.
+---
 
-🗂️ Riwayat Perhitungan: Menyimpan dan menampilkan riwayat perhitungan sebelumnya.
+## 🚀 Features
 
-📱 Desain Responsif: Tampilan yang optimal di berbagai perangkat, dari desktop hingga mobile.
+- Hitung BMI secara real-time berdasarkan **berat dan tinggi badan**
+- Tampilkan kategori BMI secara otomatis
+- Slider interaktif untuk tinggi badan, sinkron dengan input manual
+- UI modern dan responsif menggunakan **TailwindCSS**
+- Simpan history perhitungan di **LocalStorage**
+- Bisa hapus history kapan saja
 
-🖱️ Input Interaktif: Slider tinggi badan yang sinkron dengan input angka.
+---
 
-💾 Penyimpanan Lokal: Riwayat tetap tersimpan bahkan setelah me-refresh halaman.
+## 📸 Preview
 
-⚠️ Validasi Input: Memberikan peringatan jika input tidak sesuai (misalnya, nama kosong).
+![BMI Calculator Preview](./screenshot.gif)  
+> *Tambahkan GIF animasi untuk menunjukkan input + slider + hasil BMI.*
 
-🛠️ Teknologi yang Digunakan
-Framework: React
+---
 
-Styling: Tailwind CSS
+## 🛠️ Tech Stack
 
-State Management: React Hooks (useState, useEffect, useRef)
+- **Frontend:** React, Vite  
+- **Styling:** TailwindCSS (dan optional Bootstrap)  
+- **State Management:** React useState Hook  
 
-Deployment: Vercel
+---
 
-📦 Instalasi dan Penggunaan Lokal
-Ingin menjalankan proyek ini di komputer Anda? Ikuti langkah-langkah berikut:
+## 📦 Installation & Setup
 
-Clone repository ini:
+1. **Clone repository ini:**
 
-git clone [https://github.com/NAMA_ANDA/nama-repositori-anda.git](https://github.com/NAMA_ANDA/nama-repositori-anda.git)
-
-Masuk ke direktori proyek:
-
-cd nama-repositori-anda
-
-Install semua dependencies yang dibutuhkan:
-
-npm install
-
-Jalankan proyek di mode development:
-
-npm start
-
-Buka browser Anda dan akses http://localhost:3000.
-
-🏗️ Build untuk Produksi
-Untuk membuat versi produksi dari aplikasi ini, jalankan perintah berikut:
-
-npm run build
-
-Hasil build akan tersimpan di dalam folder build/, yang siap untuk di-deploy ke hosting pilihan Anda.
-
-💜 Lisensi
-Proyek ini dirilis di bawah Lisensi MIT. Anda bebas menggunakan dan memodifikasi kode ini sesuai kebutuhan.
-
-<div align="center">
-Dibuat dengan ❤️ oleh [Nama Anda]
-</div>
+```bash
+git clone https://github.com/garincsr/BMI-Calculator.git
