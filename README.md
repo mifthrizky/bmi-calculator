@@ -1,8 +1,7 @@
 # BMI Calculator
 🌐 **Live Demo:** [https://bmi-calculator-mip-one.vercel.app/](https://bmi-calculator-mip-one.vercel.app/)
----
+
 <img width="1547" height="950" alt="image" src="https://github.com/user-attachments/assets/38808a9e-276a-4fed-b7cb-3ec71c63bbf9" />
----
 
 ![React](https://img.shields.io/badge/React-17.0.2-blue?logo=react&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-4.0.0-purple?logo=vite&logoColor=white)
@@ -47,33 +46,38 @@ Aplikasi ini dibuat menggunakan **React** dan **Vite**, memberikan performa ting
 
 ```bash
 git clone https://github.com/mifthrizky/bmi-calculator.git
+```
 
 2. **Masuk ke direktori proyek::**
 
 ```bash
 cd bmi-calculator
+```
 
 3. **Install dependencies:**
 
 ```bash
 npm install
+```
 
 4. **Jalankan proyek di mode development:**
 
 ```bash
 npm run dev
+```
 
 5. **Buka browser dan akses:**
 
 ```bash
 http://localhost:5173
+```
 
 > 💡 Port default Vite adalah 5173.
 
 ---
 
 <p align="center">
-  Dibuat dengan ❤️ oleh <a href="[https://github.com/mifthrizky](https://github.com/mifthrizky)">mifthrizky</a>
+  Dibuat dengan ❤️ oleh <a href="https://github.com/mifthrizky">mifthrizky</a>
 </p>
 
 
